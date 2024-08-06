@@ -1,8 +1,4 @@
-import dotenv from "dotenv";
-
-dotenv.config();
-
-const API_BASE_URL = process.env.API_BASE_URL;
+const API_BASE_URL ="";
 
 const API_URLS = {
   REGISTER: `${API_BASE_URL}/register`,
